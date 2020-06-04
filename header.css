@@ -1,0 +1,137 @@
+
+/* header-section */
+
+#header-container
+{
+    /* height: auto; */
+    /* width: 100%;   */
+    background-color: rgb(10, 8, 23);
+    /* border: 2px solid black; */
+    display: flex; 
+    justify-content: space-between;    
+}
+
+.header-items1
+{
+     /* height:80%; */
+    /* width:40rem;   */
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px; 
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header-items1 .header-item-icon i
+{
+    font-size: 4rem;
+    border-radius: 20px 0px;
+    background-color: rgb(204, 43, 75);
+    color: rgb(255,185,0);
+    box-shadow: 0px 0px 6px 6px wheat;
+}
+
+
+.header-item-caption h1
+{
+    margin-left: -15px;
+    text-shadow: 6px 6px wheat;
+    color: rgb(247,99,12);
+
+}
+
+.header-item-caption h1::first-letter
+{
+    font-size: 3.5rem;
+    color: rgb(60, 92, 145);
+}
+
+.header-item-favourites a
+{
+    text-decoration: none;
+    transform: rotate(2deg);
+}
+
+.header-item-favourites a:hover
+{
+    text-decoration: underline;
+}
+
+.header-item-favourites a h2
+{
+    margin-left: 2rem;
+    line-height: 3rem;
+    text-decoration:none;
+}
+
+.header-items2
+{
+    /* height:80%;  */
+    width:40rem;
+    /* border: 2px solid blue; */
+    display: flex;
+    padding-top: 1rem;
+    /* margin-right: 30px;*/
+    justify-content: space-evenly;
+}
+
+.header-items2 .header-item-searchbox
+{
+    /* border: 1px solid black; */
+    box-shadow: 0px 0px 6px 6px rgb(16,30,54);
+    background-color: rgb(10, 8, 23);
+    border-radius: 10px;
+    height: 20px;
+    width: 13rem;
+    margin-top: 1.3rem;
+}
+
+.header-items2 .header-item-searchbox input
+{
+    outline:none;
+    border:none;
+    background-color: rgb(10, 8, 23);
+    color: blanchedalmond;
+    text-transform: capitalize;
+}
+
+.header-items2 .header-item-notification
+{
+    font-size: 1.5rem;
+    margin-top: 1.3rem; 
+}
+
+
+.header-items2 .header-item-image img
+{
+    height: 10vh;
+    width: 6vw;
+    border-radius: 50%;
+    margin-top: .6rem; 
+}
+
+.header-items2 .header-item-image img:hover
+{
+    box-shadow: 0px 0px 8px 16px rgb(29, 11, 66); 
+    cursor: all-scroll;
+}
+
+.header-items1 a,.header-items2 a
+{
+    color: rgb(236,240,241);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,394 @@
+#middle
+{   
+}
+.container
+{
+ /* height: 75vh; */
+ /* width: 100%;   */
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    background-color: rgb(10, 8, 23);
+ /* box-shadow: 0px 0px 10px 6px rgb(44,62,80);  */
+}
+
+/* content container */
+
+.container1
+{
+    /* background-color: greenyellow; */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 3%;
+    margin-right:3%;
+}
+
+/* first-child-container of container1---------***********-------TOP-IMAGE-SECTION----------*********************----------*/
+
+.child-container-1
+{
+    /* height: 65vh; */
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 3%;
+}
+
+.child-container-1 .child-1-items
+{
+    height: 30vh;
+    width: 20rem;
+    /* border: 1px solid red; */
+    margin-bottom: 2%;
+    box-shadow: 0px 0px 10px 6px rgb(44,62,80); 
+
+}
+
+.child-container-1 .child-1-items:hover
+{
+    transition: .5s ease-in-out;
+    transform: scale(1.15);
+    opacity: .8;
+    cursor: pointer;
+}
+
+.child-container-2
+{
+    width:100%;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/* second-child-container content*/
+
+.child-container-2 .child-2-items
+{
+    width: 150px;
+    height: 150px;
+    /* border: 1px solid black; */
+    margin: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 0px 0px 10px 6px rgb(44,62,80); 
+
+}
+
+.child-container-2 .child-2-items
+{
+    background-image: url(images/music4.jpg);
+}
+
+.child-2-items h1
+{
+    visibility: hidden;
+}
+
+.child-2-items h4
+{
+    visibility: hidden;
+}
+
+.child-2-items:hover h1
+{
+    visibility: visible;
+}
+
+.child-2-items:hover h4
+{
+    visibility: visible;
+}
+
+.child-2-items a
+{
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.child-2-items:hover
+{
+    opacity: .6;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    transform: scale(1.05);
+}
+
+/* -------------************---------------------****************-------------------- */
+
+
+/* third-child-container of container------------********------------LATEST-RELEASE-SECTION-------------*************-------------*/
+
+.child-container-3
+{
+    width:100%; 
+    /* border: 1px solid purple; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.child-container-3 .child-3-items
+{
+    width: 150px;
+    height: 200px;
+    /* border: 1px solid black; */
+    margin: 2%; 
+}
+
+/* third-child-content */
+
+.child-container-3 .child-3-items div
+{
+    width: inherit;
+    height: 70%;
+    /* border: 1px solid blueviolet; */
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 6px rgb(44,62,80); 
+    cursor: pointer;
+}
+
+.child-container-3 .child-3-items div h1 
+{
+    opacity: 0;
+    padding: 17px;
+}
+
+.child-container-3 .child-3-items div:hover h1
+{
+    opacity: .8;
+}
+
+
+.child-container-3 .child-3-items div:hover
+{
+    opacity:.9;
+    transition: .5s ease-in-out;
+    transform: scale(.95);
+
+}
+
+.child-container-3 .child-3-items h4
+{
+    text-align: center;
+    margin-top:10px ;
+}
+
+/* third-child-images */
+
+.child-3-items .item1
+{
+    background-image: url(images/image5.jpg);
+}
+
+.child-3-items .item2
+{
+    background-image: url(images/image6.jpg);
+}
+
+.child-3-items .item3
+{
+    background-image: url(images/image7.jpg);
+}
+
+.child-3-items .item4
+{
+    background-image: url(images/music4.jpg);
+}
+
+/* -------------************---------------------****************-------------------- */
+
+
+
+.container2
+{
+    background-color: rgb(10, 8, 23);
+    /* box-shadow: 0px 0px 10px 6px rgb(44,62,80); */
+}
+
+/* first-child-container of aside */
+.child-container
+{
+    height: auto;
+    /* width: 100%; */
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.child-container h1
+{
+    color: white;
+    text-decoration: none;
+}
+
+.child-container h4>a
+{
+    color: rgb(128,222,234);
+    text-decoration: none;
+}
+
+.child-container h4>a:hover
+{
+    text-decoration: underline;
+}
+.child-container h1:hover
+{
+    transition: .3s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+/* second-child-container of aside */
+
+.container2 .aside-child-2
+{
+    height: auto;
+    /* border: 1px solid orangered; */
+
+} 
+.aside-child-2 .child1
+{
+    height: auto;
+    width: 100%;
+    background-color: rgb(10, 8, 23);
+    /* border: 1px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    box-shadow: 0px 0px 10px 6px rgb(44,62,80);
+    cursor: pointer;
+}
+.aside-child-2 .child1:hover
+{
+
+    transform: scale(1.04);
+    box-shadow: 6px 6px 2px 2px  rgb(44,62,80);  
+
+}
+
+.child1 .music-image img
+{
+    height: 60px;
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-left: -20px;
+
+}
+
+.child1 .music-image i
+{
+    position: relative;
+    font-size: 1rem;
+    top: -24%;
+    left: 25%;
+    visibility: hidden;
+    color: whitesmoke;
+}
+
+.child1 .music-image:hover i
+{
+    visibility: visible;
+}
+
+.child1 .music-image:hover
+{
+    opacity: .6;
+}
+
+.child1 .music-content h1
+{
+    margin-left: -5px;
+    color: whitesmoke;
+    font-size: 1rem;
+}
+
+.child1 .music-content p
+{
+    color: rgb(96,125,139);
+    margin-top: -10px;
+}
+
+
+.child1 i
+{
+    font-size: 1.4rem;
+    align-self: center;
+    color:rgb(128,222,234);
+}
+
+.child1 i:hover
+{
+    transition: ease-in-out;
+    transform: scalex(1.15);
+}
+
+
+/* MEDIA-QUERIES */
+
+@media only screen and (max-width:600px)
+{
+
+
+.container
+{
+ /* height: 75vh; */
+ /* width: 100%;   */
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    background-color: rgb(10, 8, 23);
+ /* box-shadow: 0px 0px 10px 6px rgb(44,62,80);  */
+}
+
+.child-container-3
+{
+    width:120%; 
+    /* border: 1px solid purple; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    margin-left: 100px;
+}
+
+
+.child-container-3 .child-3-items
+{
+    width: 135px;
+    height: 200px;
+    /* border: 1px solid black; */
+    margin-left: 5px; 
+}
+
+
+}
+
+
+/* comman classc */
+
+.bg-positioning
+{
+    background-size: cover;
+    background-position: center;
+}
+
+.text-color
+{
+    color: rgb(236,240,241);
+}
+
+.align-text
+{
+    text-align: center;
+}
+
+
+::-webkit-scrollbar
+{
+    width: 0px;
+}
